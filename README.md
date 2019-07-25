@@ -1,7 +1,7 @@
 # passport-js-local-strategy
 It is an Example Implementation of Passport JS Local Strategy with very basic form, the main motive is to make you understand how it can be Implemented.
 
-THE ENV variables have two Variables :-
+THE .env file has two Environment Variables :-
 1- SECRET
 2- PORT
 
