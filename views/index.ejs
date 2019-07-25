@@ -1,0 +1,12 @@
+<h1>Hey <%= name
+%> </h1>
+
+<%if (button_visible) {%>
+<form action="/logout?_method=DELETE" method="POST">
+    <button type="submit">LOGOUT</button>
+</form>
+<%} 
+else { %>
+<a href="./login">Login Here</a>
+<%}%>
+
